@@ -1,1 +1,14 @@
+# Ignore the data folder (images, labels, zips)
+data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments (if you have them)
+env/
 venv/
+yolo_env/
