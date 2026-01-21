@@ -13,5 +13,6 @@ env/
 venv/
 yolo_env/
 
-notebooks/wandb
+wandb/
+notebooks/wandb/
 *.pt
