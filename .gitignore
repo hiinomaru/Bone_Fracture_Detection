@@ -1,6 +1,20 @@
 # Ignore the data folder (images, labels, zips)
 data/
 
+# Ignore Datasets 
+dataset_final/
+datasets/
+data/
+
+# Ignore Training Outputs & Logs
+runs/
+wandb/
+yolo_env/
+
+# Ignore Python Cache
+__pycache__/
+*.ipynb_checkpoints/
+
 # Ignore Python cache files
 __pycache__/
 *.pyc
@@ -8,7 +22,7 @@ __pycache__/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore virtual environments (if you have them)
+# Ignore virtual environments 
 env/
 venv/
 yolo_env/
@@ -16,3 +30,7 @@ yolo_env/
 wandb/
 notebooks/wandb/
 *.pt
+
+# Ignore Model Weights
+*.pt
+*.pth
