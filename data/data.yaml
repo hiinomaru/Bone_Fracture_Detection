@@ -5,7 +5,7 @@ test: images/test
 nc: 9
 names:
 - boneanomaly
-- bonelesion
+- bonelesion to less images
 - foreignbody
 - fracture
 - metal
